@@ -62,6 +62,12 @@ export default {
   ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+     [
+      "@vue-storefront/storyblok/nuxt",
+      {
+        "jsBridge": "https://app.storyblok.com/f/storyblok-v2-latest.js"
+      }
+    ],
 
     'nuxt-i18n',
     'cookie-universal-nuxt',
