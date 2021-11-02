@@ -70,6 +70,7 @@ export default {
     '@vue-storefront/storyblok/nuxt'
     
   ],
+  plugins: ['~/plugins/cms']
   i18n: 
   {
     currency: 'USD',
